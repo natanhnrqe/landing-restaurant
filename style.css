@@ -1,0 +1,14 @@
+:root {
+    --green-primary: #39DB4A;
+    --green-light: #53EC62;
+    --green-shadow: rgba(142,255,154,0.5);
+    --text-dark: #272727;
+    --text-body: #4A4A4A;
+    --text-card: #2C2C2C;
+    --price-red: #FF7979;
+    --star-yellow: #FFE605;
+    --star-gray: #B0B4B7;
+    --bg-page: #333;
+    --white: #FFFFFF;
+    --card-bg: #EDEDED;
+}
