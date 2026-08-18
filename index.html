@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
     <header>
         <nav>
             <div class="nav-logo">
-                <span>Nome Restaurante</span>
+                <span class="logo-destaque">Dom</span>
+                <span>Firmino</span>
             </div>
 
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="#" class="ativo">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Ofertas</a></li>
@@ -23,13 +32,15 @@
 
             <div class="nav-actions">
                 <button class="nav-icon" aria-label="Buscar">
-                    <img src="" alt="Busca">
+                    <img src="assets/icon _search.svg" alt="Busca">
                 </button>
-                <button class="nav-icon nav-cart" aria-label="Carrinho">
-                    <img src="" alt="Carrinho">
-                    <span class="nav-badge">8</span>
+                <button class="nav-icon" aria-label="Carrinho">
+                    <img src="assets/shopping-bag.svg" alt="Carrinho">
                 </button>
-                <button class="nav-cta">Contato</button>
+                <button class="btn-primary">
+                    <img src="assets/phone-call.svg" alt="telefone">
+                    <span>Contato</span>
+                </button>
             </div>
         </nav>
     </header>
@@ -37,25 +48,25 @@
     <main>
         <section class="hero">
 
-            
+
             <div class="hero-left">
                 <h1>Título principal do restaurante</h1>
                 <p>Subtítulo descrevendo o restaurante.</p>
 
                 <div class="hero-buttons">
                     <button class="btn btn-primary">Pedir Agora</button>
-                    
+
                 </div>
             </div>
 
-            
+
             <div class="hero-right">
 
                 <div class="hero-image">
                     <img src="" alt="Foto do restaurante">
                 </div>
 
-                
+
                 <div class="hero-card hero-card-left">
                     <img src="" alt="Foto do prato">
                     <div class="hero-card-info">
@@ -84,13 +95,49 @@
             </div>
         </section>
 
-         <section class="ofertas">
+    
+        <section class="ofertas">
             <div class="container">
-                <!-- Todo conteudo vai ficar aqui dentro... -->
+                <h2 class="texto_buffet">Buffet</h2>
+                <h1 class="texto_principais_comidas">Principais Comidas</h1>
+                <div class="card">
+                    <div class="icone_card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-pM2a59XSZIWpHaFlzfFmgT-1N_sPTpqYLFLJ7ycSg&s=10"
+                            alt="Prato 1">
+                    </div>
+                    <div class="icone_card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEywpEEyHG_Kd5n2VQesespAvtqN2bWDBERBL7-Ji1w&s=10"
+                            alt="Prato 2">
+                    </div>
+                    <div class="icone_card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzNmSOorEvHsMAOEcIR4HZkEkxkop6xMzqhkyTJNPew&s=10"
+                            alt="Prato 3">
+                    </div>
+                </div>
             </div>
         </section>
 
-         <section class="servicos">
+        <section>
+            <div class="endereco">
+                <h2>Endereco</h2>
+                <address>
+                    <a href="https://maps.app.goo.gl/n62Q5RfpeZxsBdEGA">
+                        Av. Argentina, 162 - Rio Verde, Colombo - PR, 83405-420
+                    </a>
+                </address>
+                <div class="card">
+                    <div class="icone_card2">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIn1s0Q-cVwodcVprIkQ6uWD5x3DyrnhR4HFjOk-OBi_ejvflHq6RGEIutm7nfm7I57VLtm1H2vcXVeqrEJrgR4fgO3S0HMn7iN7nAPZVDsWFYoFE7dAXz33Lz0TK7y0ZkEKw=s680-w680-h510-rw" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        </section>
+
+        <section class="servicos">
             <div class="container">
                 <!-- Todo conteudo vai ficar aqui dentro... -->
             </div>
@@ -104,4 +151,5 @@
     </footer>
 
 </body>
+
 </html>
