@@ -179,7 +179,6 @@ nav {
     font-weight: 500;
 }
 
-
 .hero-right {
     position: relative;
     display: flex;
@@ -201,21 +200,6 @@ nav {
     position: relative;
     z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .texto_principais_comidas{
     font-family: var(--fonte-titulos);
@@ -288,4 +272,26 @@ nav {
     color: var(--price-red);
     text-decoration: underline;
     
+}
+
+footer {
+   height: 80px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100%;
+    padding: 20px 120px;
+
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
